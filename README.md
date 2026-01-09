@@ -35,7 +35,7 @@ CUDA_VISIBLE_DEVICES=0 python3.8 train_S3DIS.py
 
 ### A subset of the experimental results
 ![](./fig/Result_1.jpg)
-![](./fig/Result_2.jpg)
+![](./fig/Result_s.jpg)
 
 **Our code builds on [GrowSP](https://github.com/vLAR-group/GrowSP/). Many thanks to GrowSP for a fantastic framework.**
 
