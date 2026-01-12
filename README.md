@@ -1,7 +1,9 @@
 # lvwConv_csdattn
-![](./fig/Framework_6.jpg)
+![](./fig/Framework_1.jpg)
+![](./fig/Net.jpg)
 
-**code of An Unsupervised Point Cloud Segmentation Model Guided by Controllable 3D Priors Convolution**
+**code of Unsupervised Point Cloud Semantic Segmentation Based on 
+Point Shuffle Attention**
 
 ## Setup
 Setting up for this project involves installing dependencies. 
@@ -31,7 +33,9 @@ python data_prepare/initialSP_prepare_S3DIS.py
 CUDA_VISIBLE_DEVICES=0 python3.8 train_S3DIS.py
 ```
 
-
+### A subset of the experimental results
+![](./fig/Result_1.jpg)
+![](./fig/Result_s.jpg)
 
 **Our code builds on [GrowSP](https://github.com/vLAR-group/GrowSP/). Many thanks to GrowSP for a fantastic framework.**
 
