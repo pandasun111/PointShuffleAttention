@@ -30,9 +30,9 @@ default_pseudo_label_path = f'pseudo_label_s3dis/{current_date}/'
 def parse_args():
     '''PARAMETERS'''
     parser = argparse.ArgumentParser(description='PyTorch Unsuper_3D_Seg')
-    parser.add_argument('--data_path', type=str, default='/home/magic2/syh/GrowSP-main/data/S3DIS/input',
+    parser.add_argument('--data_path', type=str, default='data/S3DIS/input',
                         help='pont cloud data path')
-    parser.add_argument('--sp_path', type=str, default='/home/magic2/syh/GrowSP-main/data/S3DIS/initial_superpoints/',
+    parser.add_argument('--sp_path', type=str, default='data/S3DIS/initial_superpoints/',
                         help='initial superpoint path')
     parser.add_argument('--save_path', type=str, default=default_save_path,
                         help='model savepath')
