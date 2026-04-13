@@ -37,5 +37,8 @@ CUDA_VISIBLE_DEVICES=0 python3.8 train_S3DIS_PSA.py
 ![](./fig/Result_1.jpg)
 ![](./fig/Result_s.jpg)
 
+### Checkpoint
+The trained models and classifier files for S3DIS area5 are located in the 'ckpt' folder.
+
 **Our code builds on [GrowSP](https://github.com/vLAR-group/GrowSP/). Many thanks to GrowSP for a fantastic framework.**
 
