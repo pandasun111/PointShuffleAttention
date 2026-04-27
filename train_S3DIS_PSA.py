@@ -49,7 +49,7 @@ def parse_args():
     parser.add_argument('--weight-decay', type=float, default=1e-4, help='SGD parameters')
     parser.add_argument('--workers', type=int, default=10, help='how many workers for loading data in training')
     parser.add_argument('--cluster_workers', type=int, default=4, help='how many workers for loading data in clustering')
-    parser.add_argument('--seed', type=int, default=2025, help='random seed')
+    parser.add_argument('--seed', type=int, default=2022, help='random seed')
     parser.add_argument('--log-interval', type=int, default=20, help='log interval')
     parser.add_argument('--batch_size', type=int, default=10, help='batchsize in training')
     parser.add_argument('--voxel_size', type=float, default=0.05, help='voxel size in SparseConv')
