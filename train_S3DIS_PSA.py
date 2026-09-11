@@ -65,8 +65,8 @@ def parse_args():
     parser.add_argument('--w_rgb', type=float, default=5/5, help='weight for RGB in merging superpoint')
     parser.add_argument('--w_xyz', type=float, default=1/5, help='weight for XYZ in merging superpoint')
     parser.add_argument('--w_norm', type=float, default=4/5, help='weight for Normal in merging superpoint')
-    parser.add_argument('--c_rgb', type=float, default=0, help='weight for RGB in clustering primitives')
-    parser.add_argument('--c_shape', type=float, default=0, help='weight for PFH in clustering primitives')
+    parser.add_argument('--c_rgb', type=float, default=3, help='weight for RGB in clustering primitives')
+    parser.add_argument('--c_shape', type=float, default=3, help='weight for PFH in clustering primitives')
     return parser.parse_args()
     
 
